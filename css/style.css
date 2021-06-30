@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+.pad-0 {
+	padding: 0;
+}
+
+/* 画像の大きさ設定 */
+.img-60 {
+	width: 60%;
+}
+/* 文字の色設定 */
+.blue-font {
+	color: #1189a3;
+}
+
+/* フォント大きさ設定 */
+
+.l-font {
+	font-size: 2.3rem;
+	font-weight: 800;
+}
+
+header {
+	background-image: url(../images/background.jpg);
+	background-position: center;
+}
+
+.leftimg {
+	padding: 2rem;
+	margin-bottom: 20px;
+}
+.rightimg {
+	padding: 2rem 2rem 0 0;
+}
+
+.campainwindow {
+	margin-top: -90px;
+}
+
+.yellow-area {
+	background-image: url(../images/yellowback.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 3rem 0 4rem 0;
+	height: 198px;
+}
+
+.yellow-area h1 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.ticket-box {
+	padding: 2rem 0;
+}
+
+.ticket-box h2 {
+	font-size: 1.2rem;
+	text-align: center;
+	color: #1189a3;
+	margin: 2rem 0;
+}
+
+#shopinfo {
+	background: url(../images/entrance.jpg) no-repeat top center;
+	background-size: cover;
+	height: 300px;
+}
+
+.button-box button {
+	background-color: #ecd860;
+	padding: 1rem 1.5rem;
+	border: none;
+}
+
+.infolist ul {
+	list-style: none;
+}
+
+.infolist li {
+	color: #fff;
+}
+
+.shopbox {
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+
+.tel {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+/* お悩みリスト */
+#worries {
+	margin: 2rem 0;
+}
+
+#worries h1 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+.worries-list {
+	padding: 1.5rem 3rem 0 3rem;
+}
+
+.worries-list ul {
+	list-style: none;
+}
+
+.worries-list li {
+	font-size: 1.2rem;
+	padding: 0.5rem 0;
+	border-bottom: dotted 1px #999;
+	font-weight: 600;
+}
+
+.worries-list i {
+	color: #656565;
+	font-size: 1.5rem;
+	padding-right: 0.5rem;
+}
+
+.worry-img {
+	padding: 1rem;
+}
+
+.grey-01 {
+	color: #3e4152;
+}
+
+.grey-02 {
+	color: #575654;
+}
+
+.bluebox {
+	background-color: #1189a3;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	padding: 3rem;
+}
+
+.bluebox h2 {
+	color: #fff;
+}
+
+.bluebox p {
+	color: #fff;
+	padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	.rightimg {
+		padding: 0 3rem 0 0;
+	}
+
+	.leftimg {
+		padding: 2rem 2rem 0 2rem;
+		margin: 0;
+	}
+
+	.ticket {
+		text-align: center;
+		padding-top: 1rem;
+	}
+
+	.infolist ul {
+		text-align: center;
+		padding: 0;
+	}
+
+	#worries h1 {
+		font-weight: 600;
+		font-size: 1.3rem;
+	}
+
+	.worry-img {
+		text-align: center;
+		padding: 0;
+	}
+
+	.worries-list {
+		padding: 0 1.5rem;
+	}
+
+	.worries-list ul {
+		padding: 1rem 1.3rem;
+	}
+
+	.worries-list li {
+		font-size: 0.8rem;
+	}
+
+	.worries-list i {
+		font-size: 0.8rem;
+	}
+}
